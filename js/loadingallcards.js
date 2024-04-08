@@ -266,5 +266,6 @@ function oglocker(){
     // const verifybutton_source = verifybutton.dataset.customValue;
     // console.log(verifybutton_source);
     // window.open(lockerlinks[verifybutton_source]);
-    window.location.href='https://verifyuser.org/cl/i/o6qdjd';
+    // window.location.href='https://verifyuser.org/cl/i/o6qdjd';
+    window.location.href='https://youtu.be/SGLkTb8X85I';
 }
