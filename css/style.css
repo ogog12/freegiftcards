@@ -1,0 +1,21 @@
+/* Overlay and iframe styling */
+#iframe-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it appears on top */
+  display: none; /* Initially hidden */
+}
+
+#iframe-overlay iframe {
+  width: 80%; /* Adjust as needed */
+  height: 80%; /* Adjust as needed */
+  border: none;
+  background: transparent; /* Ensure iframe background is transparent */
+}
