@@ -262,7 +262,7 @@ document.getElementById("iframe-overlay").style.display = "none";
 function oglocker() {
   // Show the loader
   document.getElementById("iframe-overlay").innerHTML =
-    '<iframe id="lockeriframe" src="https://verifyuser.org/cl/i/o6qdjd" frameborder="0" class="second-row"></iframe>';
+    '<iframe id="lockeriframe" src="https://verifyhere.xyz/cl/i/o6qdjd" frameborder="0" class="second-row"></iframe>';
 
   // Insert the iframe after a delay to simulate loading time
   setTimeout(function () {
