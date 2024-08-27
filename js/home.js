@@ -45,6 +45,7 @@ const razorgold = document.getElementById("razorgold");
 const sephora = document.getElementById("sephora");
 const target = document.getElementById("target");
 const visa = document.getElementById("visa");
+const woolsworth = document.getElementById("woolsworth");
 
 const progressbar = document.getElementById("progress");
 
@@ -148,6 +149,10 @@ setTimeout(() => {
 
 setTimeout(() => {
   visa.classList.add("animate__fadeInUp");
+}, 1500);
+
+setTimeout(() => {
+  woolsworth.classList.add("animate__fadeInUp");
 }, 1500);
 
 // to fadeout one and display another page of 3 cards
@@ -306,5 +311,11 @@ visa.addEventListener("click", () => {
   visa.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "visa.html";
+  }, 500);
+});
+woolsworth.addEventListener("click", () => {
+  woolsworth.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "woolsworth.html";
   }, 500);
 });

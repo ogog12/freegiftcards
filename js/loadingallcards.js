@@ -29,6 +29,7 @@ const idMap = {
   sephorapage: ["sephora50", "sephora100", "sephora250"],
   targetpage: ["target50", "target100", "target250"],
   visapage: ["visa50", "visa100", "visa250"],
+  woolsworthpage: ["woolsworth50", "woolsworth100", "woolsworth250"],
 };
 
 // this is the page after  clicking one of the 50,100,250 card. then it will come as genrating ....... for $50/100/250
@@ -55,6 +56,7 @@ const generatingforMap = {
   sephorapage: "Sephora",
   targetpage: "Target",
   visapage: "Visa",
+  woolsworthpage: "woolsworth",
 };
 
 let generatingfor = generatingforMap[source] || "Unknown";
