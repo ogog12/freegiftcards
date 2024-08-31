@@ -47,117 +47,36 @@ const target = document.getElementById("target");
 const visa = document.getElementById("visa");
 const woolsworth = document.getElementById("woolsworth");
 
+const airbnb = document.getElementById("airbnb");
+const appletv = document.getElementById("appletv");
+const chickfila = document.getElementById("chickfila");
+const chipotle = document.getElementById("chipotle");
+const classpass = document.getElementById("classpass");
+const crunchyroll = document.getElementById("crunchyroll");
+const doordash = document.getElementById("doordash");
+const dunkindonuts = document.getElementById("dunkindonuts");
+const espn = document.getElementById("espn");
+const fandango = document.getElementById("fandango");
+const fubo = document.getElementById("fubo");
+const grubhub = document.getElementById("grubhub");
+const hbo = document.getElementById("hbo");
+const hilton = document.getElementById("hilton");
+const hoyts = document.getElementById("hoyts");
+const marriott = document.getElementById("marriott");
+const myfitnesspal = document.getElementById("myfitnesspal");
+const neon = document.getElementById("neon");
+const pandora = document.getElementById("pandora");
+const paramount = document.getElementById("paramount");
+const peacock = document.getElementById("peacock");
+const primevideo = document.getElementById("primevideo");
+const spotify = document.getElementById("spotify");
+const ubereats = document.getElementById("ubereats");
+
 const progressbar = document.getElementById("progress");
-
-setTimeout(() => {
-  roblox.classList.add("animate__fadeInUp");
-}, 50);
-
-setTimeout(() => {
-  xbox.classList.add("animate__fadeInUp");
-}, 100);
-
-// Amazon
-setTimeout(() => {
-  amazon.classList.add("animate__fadeInUp");
-}, 200);
-
-// Walmart
-setTimeout(() => {
-  walmart.classList.add("animate__fadeInUp");
-}, 300);
-
-// Apple
-setTimeout(() => {
-  apple.classList.add("animate__fadeInUp");
-}, 400);
-
-// eBay
-setTimeout(() => {
-  ebay.classList.add("animate__fadeInUp");
-}, 500);
-
-// Facebook
-setTimeout(() => {
-  facebook.classList.add("animate__fadeInUp");
-}, 600);
-
-// Starbucks
-setTimeout(() => {
-  starbucks.classList.add("animate__fadeInUp");
-}, 700);
-
-// Netflix
-setTimeout(() => {
-  netflix.classList.add("animate__fadeInUp");
-}, 800);
-
-// PlayStation
-setTimeout(() => {
-  playstation.classList.add("animate__fadeInUp");
-}, 900);
-
-// Cash App
-setTimeout(() => {
-  cashapp.classList.add("animate__fadeInUp");
-}, 1000);
-
-// PayPal
-setTimeout(() => {
-  paypal.classList.add("animate__fadeInUp");
-}, 1100);
-
-// iTunes
-setTimeout(() => {
-  itunes.classList.add("animate__fadeInUp");
-}, 1200);
-
-// Steam
-setTimeout(() => {
-  steam.classList.add("animate__fadeInUp");
-}, 1300);
-
-// Google Play
-setTimeout(() => {
-  googleplay.classList.add("animate__fadeInUp");
-}, 1400);
-
-// Fortnite
-setTimeout(() => {
-  fortnite.classList.add("animate__fadeInUp");
-}, 1500);
-
-setTimeout(() => {
-  americanexpress.classList.add("animate__fadeInUp");
-}, 1500);
-
-setTimeout(() => {
-  disney.classList.add("animate__fadeInUp");
-}, 1500);
-
-setTimeout(() => {
-  razorgold.classList.add("animate__fadeInUp");
-}, 1500);
-
-setTimeout(() => {
-  sephora.classList.add("animate__fadeInUp");
-}, 1500);
-
-setTimeout(() => {
-  target.classList.add("animate__fadeInUp");
-}, 1500);
-
-setTimeout(() => {
-  visa.classList.add("animate__fadeInUp");
-}, 1500);
-
-setTimeout(() => {
-  woolsworth.classList.add("animate__fadeInUp");
-}, 1500);
 
 // to fadeout one and display another page of 3 cards
 amazon.addEventListener("click", () => {
-  amazon.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  // amazon.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "amazon.html";
   }, 500);
@@ -165,157 +84,312 @@ amazon.addEventListener("click", () => {
 });
 
 roblox.addEventListener("click", () => {
-  roblox.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "roblox.html";
   }, 500);
 });
 
 xbox.addEventListener("click", () => {
-  xbox.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "xbox.html";
   }, 500);
 });
 
 walmart.addEventListener("click", () => {
-  walmart.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "walmart.html";
   }, 500);
 });
 
 apple.addEventListener("click", () => {
-  apple.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "apple.html";
   }, 500);
 });
 
 ebay.addEventListener("click", () => {
-  ebay.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "ebay.html";
   }, 500);
 });
 
 facebook.addEventListener("click", () => {
-  facebook.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "facebook.html";
   }, 500);
 });
 
 starbucks.addEventListener("click", () => {
-  starbucks.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "starbucks.html";
   }, 500);
 });
 
 netflix.addEventListener("click", () => {
-  netflix.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "netflix.html";
   }, 500);
 });
 
 playstation.addEventListener("click", () => {
-  playstation.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "playstation.html";
   }, 500);
 });
 
 cashapp.addEventListener("click", () => {
-  cashapp.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "cashapp.html";
   }, 500);
 });
 
 paypal.addEventListener("click", () => {
-  paypal.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "paypal.html";
   }, 500);
 });
 
 itunes.addEventListener("click", () => {
-  itunes.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "itunes.html";
   }, 500);
 });
 
 steam.addEventListener("click", () => {
-  steam.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "steam.html";
   }, 500);
 });
 
 googleplay.addEventListener("click", () => {
-  googleplay.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  // googleplay.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "googleplay.html";
   }, 500);
 });
 
 fortnite.addEventListener("click", () => {
-  fortnite.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  // fortnite.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "fortnite.html";
   }, 500);
 });
 
 americanexpress.addEventListener("click", () => {
-  americanexpress.classList.replace(
-    "animate__fadeInUp",
-    "animate__fadeOutLeft"
-  );
+  // americanexpress.classList.replace(
+  //   "animate__fadeInUp",
+  //   "animate__fadeOutLeft"
+  // );
   setTimeout(() => {
     window.location.href = "americanexpress.html";
   }, 500);
 });
 
 disney.addEventListener("click", () => {
-  disney.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  // disney.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "disney.html";
   }, 500);
 });
 
 razorgold.addEventListener("click", () => {
-  razorgold.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  // razorgold.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "razorgold.html";
   }, 500);
 });
 
 sephora.addEventListener("click", () => {
-  sephora.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  // sephora.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "sephora.html";
   }, 500);
 });
 
 target.addEventListener("click", () => {
-  target.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  // target.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "target.html";
   }, 500);
 });
 
 visa.addEventListener("click", () => {
-  visa.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  // visa.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "visa.html";
   }, 500);
 });
 woolsworth.addEventListener("click", () => {
-  woolsworth.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  // woolsworth.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
   setTimeout(() => {
     window.location.href = "woolsworth.html";
+  }, 500);
+});
+
+airbnb.addEventListener("click", () => {
+  // airbnb.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "airbnb.html";
+  }, 500);
+});
+
+appletv.addEventListener("click", () => {
+  // appletv.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "appletv.html";
+  }, 500);
+});
+
+chickfila.addEventListener("click", () => {
+  // chickfila.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "chickfila.html";
+  }, 500);
+});
+
+chipotle.addEventListener("click", () => {
+  // chipotle.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "chipotle.html";
+  }, 500);
+});
+
+classpass.addEventListener("click", () => {
+  // classpass.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "classpass.html";
+  }, 500);
+});
+
+crunchyroll.addEventListener("click", () => {
+  // crunchyroll.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "crunchyroll.html";
+  }, 500);
+});
+
+doordash.addEventListener("click", () => {
+  // doordash.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "doordash.html";
+  }, 500);
+});
+
+dunkindonuts.addEventListener("click", () => {
+  // dunkindonuts.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "dunkindonuts.html";
+  }, 500);
+});
+
+espn.addEventListener("click", () => {
+  // espn.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "espn.html";
+  }, 500);
+});
+
+fandango.addEventListener("click", () => {
+  // fandango.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "fandango.html";
+  }, 500);
+});
+
+fubo.addEventListener("click", () => {
+  // fubo.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "fubo.html";
+  }, 500);
+});
+
+grubhub.addEventListener("click", () => {
+  // grubhub.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "grubhub.html";
+  }, 500);
+});
+
+hbo.addEventListener("click", () => {
+  // hbo.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "hbo.html";
+  }, 500);
+});
+
+hilton.addEventListener("click", () => {
+  // hilton.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "hilton.html";
+  }, 500);
+});
+
+hoyts.addEventListener("click", () => {
+  // hoyts.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "hoyts.html";
+  }, 500);
+});
+
+marriott.addEventListener("click", () => {
+  // marriott.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "marriotts.html";
+  }, 500);
+});
+
+myfitnesspal.addEventListener("click", () => {
+  // myfitnesspal.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "myfitnesspal.html";
+  }, 500);
+});
+
+neon.addEventListener("click", () => {
+  // neon.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "neon.html";
+  }, 500);
+});
+
+pandora.addEventListener("click", () => {
+  // pandora.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "pandora.html";
+  }, 500);
+});
+
+paramount.addEventListener("click", () => {
+  // paramount.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "paramount.html";
+  }, 500);
+});
+
+peacock.addEventListener("click", () => {
+  // peacock.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "peacock.html";
+  }, 500);
+});
+
+primevideo.addEventListener("click", () => {
+  // primevideo.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "primevideo.html";
+  }, 500);
+});
+
+spotify.addEventListener("click", () => {
+  // spotify.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "spotify.html";
+  }, 500);
+});
+
+ubereats.addEventListener("click", () => {
+  // ubereats.classList.replace("animate__fadeInUp", "animate__fadeOutLeft");
+  setTimeout(() => {
+    window.location.href = "ubereats.html";
   }, 500);
 });
